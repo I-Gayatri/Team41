@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADHD Test</title>
+  <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 120px; 
+    line-height: 75px;
+    padding: 0px 100px;
+    /*position: fixed;*/
+    background-color: whitesmoke;
+}
+nav .logo p{
+    /*padding-top: 10px;*/
+    float: left;
+    cursor: pointer;
+}  /*form*/
+
+nav ul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float:right;
+    /*margin-top: 10px; */
+}
+
+nav li{
+    display :inline-block;
+    list-style: none;
+    padding-top: 15px ;
+}
+nav li a{
+    font-size: large;
+    text-transform: uppercase;
+    color: rgb(114, 104, 104);
+    text-decoration: none;
+    padding: 0px 40px;
+}
+nav li a:hover{
+    color:rgb(121,212,144);
+    transition: all 0.2s ease;
+}
+
+hr{
+    height:3px;
+    border-width:0;
+    color:rgb(121,212,144);
+    background-color:rgb(121,212,144);
+}
+
+/*form {
+    flex: 0 0 auto;
+    background-image:url("bg.jpeg");
+    align-self: center;
+    padding-left: 450px;
+    padding-top: 20px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}*/
+
+div.a{ display: inline-block;
+    /*border: solid white 5px;*/
+    margin:5px;
+    padding:20px;
+    width:155px;
+    /*height: 500px;*/}
+
+div.b{ border: solid white 5px;
+        padding:20px;
+        margin:5px;
+        width:1000px;
+        display:inline-block; 
+        align-self: center;
+        padding-left: 50px;
+        padding-top: 20px; 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+        background-image: url('/static/img/bg.jpeg');
+      }
+
+div.c{ /*border: solid black 5px;*/
+            padding:20px;
+            margin:5px;
+            width:155px;
+            display:inline-block;}
+
+hr{
+    height: 3px;
+}
+
+button {
+  font-size: 20px;
+  font-family:"Lucida Console", "Courier New", monospace;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 64px;
+  padding-right: 64px; 
+  background-color: rgba(30, 153, 133, 0.644);
+  color: whitesmoke;
+  float: right;
+  border: whitesmoke 1px;
+  border-radius: 4px;
+  border-style: solid;
+  transition: 0.2s ease-in;
+}
+
+button:hover {
+    background-color: whitesmoke; 
+    color:rgba(30, 153, 133, 0.644);
+    transition: all 0.2s ease;
+}
+
+ 
+
+  </style> 
+
+  <!-- <link rel="stylesheet" href="/static/css/adhd.css"> --> 
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <p><image src="{{ url_for('static', filename='img/logo.jpeg')}}" height="80px" weight="80px"></image> </p> 
+      
+    </div>
+    
+      <ul>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">TESTS</a></li>
+        <li><a href="#">CONNECT  WITH EXPERTS</a></li>
+        <li><a href="#">RESOURCES</a></li>
+      </ul> 
+  </nav>
+
+ <hr>
+
+  <form action="/predict" method="POST" class="adhd-form">
+    <div class="a">
+      <br>
+
+    </div>
+    <div class="b"> 
+    
+    <h1>ADHD Test</h1>
+    <br> 
+    <label class="adhd-text11">
+      1. Is he/she inattentive or easily distracted?<br />
+    </label>
+    <input type="radio" name="1" value="1"><label for="html">Not at all</label><br>
+    <input type="radio" name="1" value="2"><label for="css">Rarely</label><br>
+    <input type="radio" name="1" value="3"><label for="javascript">Sometimes</label><br>
+    <input type="radio" name="1" value="4"><label for="javascript">All the time</label><br>
+
+    <br>
+
+      <label class="adhd-text14">
+        2. Is he/she generally angry and resentful?
+      </label><br>
+      <input type="radio" name="2" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="2" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="2" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="2" value="4"><label for="javascript">All the time</label><br> 
+
+       <br> 
+       
+       <label>
+        <span>3. Does he/she find difficulty in doing or completing work?</span>
+      </label><br>
+      <input type="radio" name="3" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="3" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="3" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="3" value="4"><label for="javascript">All the time</label><br>
+
+      <br> 
+     
+      <label class="adhd-text19">
+        4. Is he/she always &quot;on the go&quot; or acts as if driven by
+        a motor?
+      </label><br>
+      <input type="radio" name="4" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="4" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="4" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="4" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text20">
+        5. Does he/she have a short attention span?
+      </label><br>
+      <input type="radio" name="5" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="5" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="5" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="5" value="4"><label for="javascript">All the time</label><br>
+      <div class="adhd-container12"></div>
+
+      <br> 
+
+      <label class="adhd-text21">6. Does he/she argue with adults?</label><br>
+      <input type="radio" name="6" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="6" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="6" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="6" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text22">
+        7. Does he/she fidgets with hands or feet or squirms in seat?
+      </label><br>
+      <input type="radio" name="7" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="7" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="7" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="7" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text23">
+        8. Does he/she fail to complete assignments given?
+      </label><br>
+      <input type="radio" name="8" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="8" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="8" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="8" value="4"><label for="javascript">All the time</label><br>
+
+      <br> 
+      
+      <label class="adhd-text24">
+        9. Is he/she hard to control in malls or while shopping?
+      </label><br>
+      <input type="radio" name="9" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="9" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="9" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="9" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text25">
+        10. Is he/she messy or disorganized at home or school?
+      </label><br>
+      <input type="radio" name="10" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="10" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="10" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="10" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text26">
+        11. Does he/she lose temper often?
+      </label><br>
+      <input type="radio" name="11" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="11" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="11" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="11" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text27">
+        12. Does he/she need close supervision to get through assignments?
+      </label><br>
+      <input type="radio" name="12" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="12" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="12" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="12" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text28">
+        13. Does he/she only attends something if she/he is very
+        interested in?
+      </label><br>
+      <input type="radio" name="13" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="13" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="13" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="13" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text29">
+        14. Does he/she run about or climb excessively in situations where
+        it is inappropriate?
+      </label><br>
+      <input type="radio" name="14" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="14" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="14" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="14" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text30">
+        15. Is distractibility or attention span a problem for him/her?
+      </label><br>
+      <input type="radio" name="15" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="15" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="15" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="15" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text31">
+        16. Does he/she get irritable often?
+      </label><br>
+      <input type="radio" name="16" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="16" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="16" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="16" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text32">
+        17. Does he/she avoid, express reluctance about, or has difficulty
+        engaging in tasks that require sustained mental effort (such as
+        schoolwork or homework)?
+      </label><br>
+      <input type="radio" name="17" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="17" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="17" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="17" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text33">
+        18. Does he/she get restless in the &quot;squirmy&quot; sense?
+      </label><br>
+      <input type="radio" name="18" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="18" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="18" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="18" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text34">
+        19. Does he/she get distracted when given instructions to do
+        something?
+      </label><br>
+      <input type="radio" name="19" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="19" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="19" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="19" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text35">
+        20. Does he/she actively defy or refuse to comply with
+        adults&apos; request?
+      </label><br>
+      <input type="radio" name="20" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="20" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="20" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="20" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text36">
+        21. Does he/she have trouble concentrating in class?
+      </label><br>
+      <input type="radio" name="21" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="21" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="21" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="21" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text37">
+        22. Does he/she have difficulty waiting in lines or awaiting turn
+        in games or group situations?
+      </label><br>
+      <input type="radio" name="22" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="22" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="22" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="22" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text38">
+        23. Does he/she leaves seat in classroom or in other situations in
+        which remaining seats is expected?
+      </label><br>
+      <input type="radio" name="23" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="23" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="23" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="23" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text39">
+        24. Does he/she deliberately do things that annoy other people?
+      </label><br>
+      <input type="radio" name="24" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="24" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="24" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="24" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text40">
+        25. Does he/she not follow through on instructions and fails to
+        finish schoolwork, chores or duties in the workplace?
+      </label><br>
+      <input type="radio" name="25" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="25" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="25" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="25" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text41">
+        26. Does he/she have difficulty playing or engaging in leisure
+        activities quietly?
+      </label><br>
+      <input type="radio" name="26" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="26" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="26" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="26" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text42">
+        27. Is he/she easily frustrated in efforts?
+      </label><br>
+      <input type="radio" name="27" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="27" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="27" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="27" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text43">
+        28. Does your child have difficulty managing time or following
+        through with tasks?
+      </label><br>
+      <input type="radio" name="28" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="28" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="28" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="28" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text44">
+        29. Does your child interrupt others or have trouble taking turns?
+      </label><br>
+      <input type="radio" name="29" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="29" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="29" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="29" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="adhd-text45">30. Is he/ she easily forgetful?</label><br>
+      <input type="radio" name="30" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="30" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="30" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="30" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <button type="submit" class="adhd_button">Submit</button>
+      
+      <h1>{{prediction_text}}</h1>
+      </div>
+      
+      <div class="c"> </div>
+    </form>
+    
+</body>
+</html>  

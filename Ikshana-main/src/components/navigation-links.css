@@ -1,0 +1,34 @@
+.navigation-links-navigation-links {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-link {
+  text-decoration: none;
+}
+.navigation-links-link1 {
+  text-decoration: none;
+}
+.navigation-links-link2 {
+  text-decoration: none;
+}
+.navigation-links-link3 {
+  text-decoration: none;
+}
+.navigation-links-hamburger {
+  gap: var(--dl-space-space-twounits);
+  display: none;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-image {
+  width: 100px;
+  object-fit: cover;
+}

@@ -1,0 +1,916 @@
+.dyscalculia-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.dyscalculia-donate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-color: #79D490;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  background-color: #79D490;
+}
+.dyscalculia-updates {
+  width: 100%;
+  height: 1984px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E8E6DA;
+}
+.dyscalculia-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 1104px;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 100px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: 100px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1533119408463-b0f487583ff6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxiYWNrZ3JvdW5kJTIwbGVhZiUyMHxlbnwwfHx8fDE2Nzc3NTAyNTc&ixlib=rb-4.0.3&h=2000");
+}
+.dyscalculia-details {
+  gap: var(--dl-space-space-threeunits);
+  flex: 1;
+  width: 1044px;
+  height: 1869px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dyscalculia-text {
+  font-size: 3em;
+}
+.dyscalculia-form {
+  width: 100%;
+  height: 1776px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dyscalculia-text03 {
+  font-size: 20px;
+}
+.dyscalculia-textinput {
+  font-size: 15px;
+  align-self: flex-start;
+}
+.dyscalculia-container01 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text06 {
+  font-size: 20px;
+}
+.dyscalculia-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton {
+  align-self: center;
+}
+.dyscalculia-text09 {
+  align-self: flex-start;
+}
+.dyscalculia-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton01 {
+  align-self: center;
+}
+.dyscalculia-container04 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text11 {
+  font-size: 20px;
+}
+.dyscalculia-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton02 {
+  align-self: center;
+}
+.dyscalculia-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton03 {
+  align-self: center;
+}
+.dyscalculia-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton04 {
+  align-self: center;
+}
+.dyscalculia-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton05 {
+  align-self: center;
+}
+.dyscalculia-container09 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text18 {
+  font-size: 20px;
+}
+.dyscalculia-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton06 {
+  align-self: center;
+}
+.dyscalculia-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton07 {
+  align-self: center;
+}
+.dyscalculia-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton08 {
+  align-self: center;
+}
+.dyscalculia-container13 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text24 {
+  font-size: 20px;
+}
+.dyscalculia-container14 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-container15 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton09 {
+  align-self: center;
+}
+.dyscalculia-container16 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton10 {
+  align-self: center;
+}
+.dyscalculia-container17 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton11 {
+  align-self: center;
+}
+.dyscalculia-container18 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton12 {
+  align-self: center;
+}
+.dyscalculia-container19 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text32 {
+  font-size: 20px;
+}
+.dyscalculia-container20 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton13 {
+  align-self: center;
+}
+.dyscalculia-container21 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton14 {
+  align-self: center;
+}
+.dyscalculia-container22 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton15 {
+  align-self: center;
+}
+.dyscalculia-container23 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton16 {
+  align-self: center;
+}
+.dyscalculia-container24 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text37 {
+  font-size: 20px;
+}
+.dyscalculia-container25 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton17 {
+  align-self: center;
+}
+.dyscalculia-container26 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton18 {
+  align-self: center;
+}
+.dyscalculia-container27 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton19 {
+  align-self: center;
+}
+.dyscalculia-container28 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-container29 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton20 {
+  align-self: center;
+}
+.dyscalculia-container30 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-container31 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text42 {
+  font-size: 20px;
+}
+.dyscalculia-container32 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton21 {
+  align-self: center;
+}
+.dyscalculia-container33 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton22 {
+  align-self: center;
+}
+.dyscalculia-container34 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton23 {
+  align-self: center;
+}
+.dyscalculia-container35 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton24 {
+  align-self: center;
+}
+.dyscalculia-container36 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text47 {
+  font-size: 20px;
+}
+.dyscalculia-container37 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton25 {
+  align-self: center;
+}
+.dyscalculia-container38 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton26 {
+  align-self: center;
+}
+.dyscalculia-container39 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton27 {
+  align-self: center;
+}
+.dyscalculia-container40 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton28 {
+  align-self: center;
+}
+.dyscalculia-container41 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text52 {
+  font-size: 20px;
+}
+.dyscalculia-container42 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton29 {
+  align-self: center;
+}
+.dyscalculia-container43 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton30 {
+  align-self: center;
+}
+.dyscalculia-container44 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton31 {
+  align-self: center;
+}
+.dyscalculia-container45 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton32 {
+  align-self: center;
+}
+.dyscalculia-container46 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text57 {
+  font-size: 20px;
+}
+.dyscalculia-container47 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton33 {
+  align-self: center;
+}
+.dyscalculia-container48 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton34 {
+  align-self: center;
+}
+.dyscalculia-container49 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton35 {
+  align-self: center;
+}
+.dyscalculia-container50 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton36 {
+  align-self: center;
+}
+.dyscalculia-container51 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text62 {
+  font-size: 20px;
+}
+.dyscalculia-container52 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton37 {
+  align-self: center;
+}
+.dyscalculia-container53 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton38 {
+  align-self: center;
+}
+.dyscalculia-container54 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton39 {
+  align-self: center;
+}
+.dyscalculia-container55 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton40 {
+  align-self: center;
+}
+.dyscalculia-container56 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text67 {
+  font-size: 20px;
+}
+.dyscalculia-container57 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton41 {
+  align-self: center;
+}
+.dyscalculia-container58 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton42 {
+  align-self: center;
+}
+.dyscalculia-container59 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton43 {
+  align-self: center;
+}
+.dyscalculia-container60 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton44 {
+  align-self: center;
+}
+.dyscalculia-container61 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text72 {
+  font-size: 20px;
+}
+.dyscalculia-container62 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton45 {
+  align-self: center;
+}
+.dyscalculia-container63 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton46 {
+  align-self: center;
+}
+.dyscalculia-container64 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton47 {
+  align-self: center;
+}
+.dyscalculia-container65 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton48 {
+  align-self: center;
+}
+.dyscalculia-container66 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text77 {
+  font-size: 20px;
+}
+.dyscalculia-container67 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton49 {
+  align-self: center;
+}
+.dyscalculia-container68 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton50 {
+  align-self: center;
+}
+.dyscalculia-container69 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton51 {
+  align-self: center;
+}
+.dyscalculia-container70 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton52 {
+  align-self: center;
+}
+.dyscalculia-container71 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-text84 {
+  font-size: 20px;
+}
+.dyscalculia-container72 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton53 {
+  align-self: center;
+}
+.dyscalculia-container73 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton54 {
+  align-self: center;
+}
+.dyscalculia-container74 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton55 {
+  align-self: center;
+}
+.dyscalculia-container75 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyscalculia-radiobutton56 {
+  align-self: center;
+}
+.dyscalculia-container76 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyscalculia-button {
+  align-self: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+@media(max-width: 1200px) {
+  .dyscalculia-text24 {
+    font-size: 20px;
+  }
+  .dyscalculia-text32 {
+    font-size: 20px;
+  }
+  .dyscalculia-text37 {
+    font-size: 20px;
+  }
+  .dyscalculia-text42 {
+    font-size: 20px;
+  }
+  .dyscalculia-text47 {
+    font-size: 20px;
+  }
+  .dyscalculia-text52 {
+    font-size: 20px;
+  }
+  .dyscalculia-text57 {
+    font-size: 20px;
+  }
+  .dyscalculia-text62 {
+    font-size: 20px;
+  }
+  .dyscalculia-text67 {
+    font-size: 20px;
+  }
+  .dyscalculia-text72 {
+    font-size: 20px;
+  }
+  .dyscalculia-text77 {
+    font-size: 20px;
+  }
+  .dyscalculia-text84 {
+    font-size: 20px;
+  }
+}

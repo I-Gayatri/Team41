@@ -1,0 +1,20 @@
+.branding-branding {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+.branding-pasted-image {
+  width: 113px;
+  height: 110px;
+}
+
+
+
+
+
+
+
+
+

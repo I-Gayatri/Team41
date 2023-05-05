@@ -1,0 +1,719 @@
+.dyslexia-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.dyslexia-donate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-color: #79D490;
+  border-style: dashed;
+  border-width: 2px;
+  flex-direction: column;
+  background-color: #79D490;
+}
+.dyslexia-updates {
+  width: 100%;
+  height: 1984px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #E8E6DA;
+}
+.dyslexia-content {
+  gap: var(--dl-space-space-fiveunits);
+  width: 1104px;
+  height: 100%;
+  display: flex;
+  opacity: 1;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: 100px;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  padding-bottom: 100px;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1533119408463-b0f487583ff6?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxiYWNrZ3JvdW5kJTIwbGVhZiUyMHxlbnwwfHx8fDE2Nzc3NTAyNTc&ixlib=rb-4.0.3&h=2000");
+}
+.dyslexia-details {
+  gap: var(--dl-space-space-threeunits);
+  flex: 1;
+  width: 1044px;
+  height: 1869px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dyslexia-text {
+  font-size: 3em;
+}
+.dyslexia-form {
+  width: 100%;
+  height: 1776px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.dyslexia-text03 {
+  font-size: 20px;
+}
+.dyslexia-textinput {
+  font-size: 15px;
+  align-self: flex-start;
+}
+.dyslexia-container01 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text06 {
+  font-size: 20px;
+}
+.dyslexia-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton {
+  align-self: center;
+}
+.dyslexia-text09 {
+  align-self: flex-start;
+}
+.dyslexia-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton01 {
+  align-self: center;
+}
+.dyslexia-container04 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text11 {
+  font-size: 20px;
+}
+.dyslexia-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton02 {
+  align-self: center;
+}
+.dyslexia-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton03 {
+  align-self: center;
+}
+.dyslexia-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton04 {
+  align-self: center;
+}
+.dyslexia-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton05 {
+  align-self: center;
+}
+.dyslexia-container09 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text18 {
+  font-size: 20px;
+}
+.dyslexia-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton06 {
+  align-self: center;
+}
+.dyslexia-container11 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton07 {
+  align-self: center;
+}
+.dyslexia-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton08 {
+  align-self: center;
+}
+.dyslexia-container13 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text24 {
+  font-size: 20px;
+}
+.dyslexia-container14 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton09 {
+  align-self: center;
+}
+.dyslexia-container15 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton10 {
+  align-self: center;
+}
+.dyslexia-container16 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton11 {
+  align-self: center;
+}
+.dyslexia-container17 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text30 {
+  font-size: 20px;
+}
+.dyslexia-container18 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton12 {
+  align-self: center;
+}
+.dyslexia-container19 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton13 {
+  align-self: center;
+}
+.dyslexia-container20 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton14 {
+  align-self: center;
+}
+.dyslexia-container21 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text34 {
+  font-size: 20px;
+}
+.dyslexia-container22 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton15 {
+  align-self: center;
+}
+.dyslexia-container23 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton16 {
+  align-self: center;
+}
+.dyslexia-container24 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton17 {
+  align-self: center;
+}
+.dyslexia-container25 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text38 {
+  font-size: 20px;
+}
+.dyslexia-container26 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton18 {
+  align-self: center;
+}
+.dyslexia-container27 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton19 {
+  align-self: center;
+}
+.dyslexia-container28 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton20 {
+  align-self: center;
+}
+.dyslexia-container29 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text42 {
+  font-size: 20px;
+}
+.dyslexia-container30 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton21 {
+  align-self: center;
+}
+.dyslexia-container31 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton22 {
+  align-self: center;
+}
+.dyslexia-container32 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton23 {
+  align-self: center;
+}
+.dyslexia-container33 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text46 {
+  font-size: 20px;
+}
+.dyslexia-container34 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton24 {
+  align-self: center;
+}
+.dyslexia-container35 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton25 {
+  align-self: center;
+}
+.dyslexia-container36 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton26 {
+  align-self: center;
+}
+.dyslexia-container37 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text50 {
+  font-size: 20px;
+}
+.dyslexia-container38 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton27 {
+  align-self: center;
+}
+.dyslexia-container39 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton28 {
+  align-self: center;
+}
+.dyslexia-container40 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton29 {
+  align-self: center;
+}
+.dyslexia-container41 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text54 {
+  font-size: 20px;
+}
+.dyslexia-container42 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton30 {
+  align-self: center;
+}
+.dyslexia-container43 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton31 {
+  align-self: center;
+}
+.dyslexia-container44 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton32 {
+  align-self: center;
+}
+.dyslexia-container45 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text58 {
+  font-size: 20px;
+}
+.dyslexia-container46 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton33 {
+  align-self: center;
+}
+.dyslexia-container47 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton34 {
+  align-self: center;
+}
+.dyslexia-container48 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton35 {
+  align-self: center;
+}
+.dyslexia-container49 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text62 {
+  font-size: 20px;
+}
+.dyslexia-container50 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton36 {
+  align-self: center;
+}
+.dyslexia-container51 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton37 {
+  align-self: center;
+}
+.dyslexia-container52 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton38 {
+  align-self: center;
+}
+.dyslexia-container53 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text66 {
+  font-size: 20px;
+}
+.dyslexia-container54 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton39 {
+  align-self: center;
+}
+.dyslexia-container55 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton40 {
+  align-self: center;
+}
+.dyslexia-container56 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton41 {
+  align-self: center;
+}
+.dyslexia-container57 {
+  width: 100%;
+  height: 26px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-text70 {
+  font-size: 20px;
+}
+.dyslexia-container58 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton42 {
+  align-self: center;
+}
+.dyslexia-container59 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton43 {
+  align-self: center;
+}
+.dyslexia-container60 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.dyslexia-radiobutton44 {
+  align-self: center;
+}
+.dyslexia-container61 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+.dyslexia-button {
+  align-self: center;
+  padding-top: var(--dl-space-space-halfunit);
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: var(--dl-space-space-sixunits);
+  padding-right: var(--dl-space-space-sixunits);
+  padding-bottom: var(--dl-space-space-halfunit);
+}

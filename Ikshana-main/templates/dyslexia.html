@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dyslexia Test</title>
+  <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 120px; 
+    line-height: 75px;
+    padding: 0px 100px;
+    /*position: fixed;*/
+    background-color: whitesmoke;
+}
+nav .logo p{
+    /*padding-top: 10px;*/
+    float: left;
+    cursor: pointer;
+}  /*form*/
+
+nav ul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float:right;
+    /*margin-top: 10px; */
+}
+
+nav li{
+    display :inline-block;
+    list-style: none;
+    padding-top: 15px ;
+}
+nav li a{
+    font-size: large;
+    text-transform: uppercase;
+    color: rgb(114, 104, 104);
+    text-decoration: none;
+    padding: 0px 40px;
+}
+nav li a:hover{
+    color:rgb(121,212,144);
+    transition: all 0.2s ease;
+}
+
+hr{
+    height:3px;
+    border-width:0;
+    color:rgb(121,212,144);
+    background-color:rgb(121,212,144);
+}
+
+/*form {
+    flex: 0 0 auto;
+    background-image:url("bg.jpeg");
+    align-self: center;
+    padding-left: 450px;
+    padding-top: 20px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}*/
+
+div.a{ display: inline-block;
+    /*border: solid white 5px;*/
+    margin:5px;
+    padding:20px;
+    width:155px;
+    /*height: 500px;*/}
+
+div.b{ border: solid white 5px;
+        padding:20px;
+        margin:5px;
+        width:1000px;
+        display:inline-block; 
+        align-self: center;
+        padding-left: 50px;
+        padding-top: 20px; 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+        background-image: url('/static/img/bg.jpeg');
+      }
+
+div.c{ /*border: solid black 5px;*/
+            padding:20px;
+            margin:5px;
+            width:155px;
+            display:inline-block;}
+
+hr{
+    height: 3px;
+}
+
+button {
+  font-size: 20px;
+  font-family:"Lucida Console", "Courier New", monospace;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 64px;
+  padding-right: 64px; 
+  background-color: rgba(30, 153, 133, 0.644);
+  color: whitesmoke;
+  float: right;
+  border: whitesmoke 1px;
+  border-radius: 4px;
+  border-style: solid;
+  transition: 0.2s ease-in;
+}
+
+button:hover {
+    background-color: whitesmoke; 
+    color:rgba(30, 153, 133, 0.644);
+    transition: all 0.2s ease;
+}
+
+ 
+
+  </style>
+
+  <!--<link rel="stylesheet" href="Dyslexia.css">-->
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <p><image src="{{ url_for('static', filename='img/logo.jpeg')}}" height="80px" weight="80px"></image> </p> 
+      
+    </div>
+    
+      <ul>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">TESTS</a></li>
+        <li><a href="#">CONNECT  WITH EXPERTS</a></li>
+        <li><a href="#">RESOURCES</a></li>
+      </ul> 
+  </nav>
+
+ <hr>
+
+  <form action="/predict" method="POST" class="Dyslexia-form">
+    <div class="a">
+      <br>
+
+    </div>
+    <div class="b"> 
+    
+    <h1>Dyslexia Test</h1>
+    <br> 
+    <label class="Dyslexia-text11">
+        1. Did your child struggle to learn to count?<br />
+    </label>
+    <input type="radio" name="1" value="1"><label for="html">Not at all</label><br>
+    <input type="radio" name="1" value="2"><label for="css">Rarely</label><br>
+    <input type="radio" name="1" value="3"><label for="javascript">Sometimes</label><br>
+    <input type="radio" name="1" value="4"><label for="javascript">All the time</label><br>
+
+    <br>
+
+      <label class="Dyslexia-text14">
+        2. Does he/she say numbers out of order?
+      </label><br>
+      <input type="radio" name="2" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="2" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="2" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="2" value="4"><label for="javascript">All the time</label><br> 
+
+       <br> 
+       
+       <label>
+        <span>3.Does your child not seem to understand the connection between the symbol “4” and the word “four?”</span>
+      </label><br>
+      <input type="radio" name="3" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="3" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="3" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="3" value="4"><label for="javascript">All the time</label><br>
+
+      <br> 
+     
+      <label class="Dyslexia-text19">
+        4.When you ask him how many cookies are left, for example, does he seem confused by the question or answer incorrectly? 
+      </label><br>
+      <input type="radio" name="4" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="4" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="4" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="4" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="Dyslexia-text20">
+        5. Does your child still count on his fingers past third grade? 
+      </label><br>
+      <input type="radio" name="5" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="5" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="5" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="5" value="4"><label for="javascript">All the time</label><br>
+      <div class="Dyslexia-container12"></div>
+
+      <br> 
+
+      <label class="Dyslexia-text21">6.Is he confused by letters, numbers, words, sequences, or verbal explanations?</label><br>
+      <input type="radio" name="6" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="6" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="6" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="6" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="Dyslexia-text22">
+        7.Does he/she read and re read with little comprehension?
+      </label><br>
+      <input type="radio" name="7" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="7" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="7" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="7" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="Dyslexia-text23">
+        8.Is there difficulty finding the right words while speaking? Does he/she use lots of 'ums', 'ahs', 'those things', and 'that stuff'?
+      </label><br>
+      <input type="radio" name="8" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="8" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="8" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="8" value="4"><label for="javascript">All the time</label><br>
+
+      <br> 
+      
+      <label class="Dyslexia-text24">
+        9. Does he/she pause, repeat or make frequent mistakes when reading aloud?
+      </label><br>
+      <input type="radio" name="9" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="9" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="9" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="9" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="Dyslexia-text25">
+        10.Is the child's spelling ability poor? Letters missed, reversed etc?
+      </label><br>
+      <input type="radio" name="10" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="10" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="10" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="10" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="Dyslexia-text26">
+        11. Is reading extremely difficult? (Below grade or age level.)
+      </label><br>
+      <input type="radio" name="11" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="11" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="11" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="11" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <label class="Dyslexia-text27">
+        12.Can count, but has difficulty counting objects and dealing with money?
+      </label><br>
+      <input type="radio" name="12" value="1"><label for="html">Not at all</label><br>
+      <input type="radio" name="12" value="2"><label for="css">Rarely</label><br>
+      <input type="radio" name="12" value="3"><label for="javascript">Sometimes</label><br>
+      <input type="radio" name="12" value="4"><label for="javascript">All the time</label><br>
+      
+      <br> 
+
+      <button type="submit" class="Dyslexia_button">Submit</button>
+      
+      <h1>{{prediction_text}}</h1>
+      </div>
+      
+      <div class="c"> </div>
+    </form>
+    
+</body>
+</html>  
